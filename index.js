@@ -16,4 +16,4 @@ app.get('*', (req, res) => {
   res.sendStatus(404);
 });
 
-app.listen(PORT);
+app.listen(PORT, () => console.log(`Server running on ${PORT} ...`));
