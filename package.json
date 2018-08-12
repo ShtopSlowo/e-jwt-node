@@ -1,0 +1,24 @@
+{
+  "name": "jwtauth",
+  "version": "0.0.1",
+  "description": "Simple auth app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "auth",
+    "node",
+    "express"
+  ],
+  "author": "foegit",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  }
+}
